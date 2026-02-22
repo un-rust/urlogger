@@ -1,4 +1,22 @@
 
+## v1.1.2
+
+[compare changes](https://github.com/un-rust/urlogger/compare/v1.1.1...v1.1.2)
+
+### 📖 Documentation
+
+- Update README header to include emoji for better visual appeal ([5775864](https://github.com/un-rust/urlogger/commit/5775864))
+
+### 🏡 Chore
+
+- Update changelog for version 1.1.1 ([7bae7d2](https://github.com/un-rust/urlogger/commit/7bae7d2))
+- Add keywords to Cargo.toml for improved package discoverability ([778ab69](https://github.com/un-rust/urlogger/commit/778ab69))
+- Bump version to 1.1.2 ([0be5b0c](https://github.com/un-rust/urlogger/commit/0be5b0c))
+
+### ❤️ Contributors
+
+- Hyq <betterhyq@qq.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/un-rust/urlogger/compare/v1.1.0...v1.1.1)
