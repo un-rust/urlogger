@@ -9,7 +9,7 @@ readme = "README.md"
 homepage = "https://github.com/un-rust/urlogger"
 repository = "https://github.com/un-rust/urlogger"
 license = "Apache-2.0"
-keywords = [ ]
+keywords = [ "log", "logger", "logging", "console" ]
 categories = [ "development-tools" ]
 rust-version = "1.85.0"
 
