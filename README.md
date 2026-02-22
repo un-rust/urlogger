@@ -10,7 +10,7 @@
 
 <!-- automdrs:description -->
 
-A template for a new Rust project
+Lightweight colored logger: `log(level, message)` with `RUST_LOG` filtering.
 
 <!-- /automdrs -->
 
