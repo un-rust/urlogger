@@ -1,17 +1,16 @@
 [package]
-name = "package-name"
-version = "3.0.2"
+name = "urlogger"
+version = "1.0.0"
 authors = [ "YONGQI <betterhyq@qq.com>" ]
 edition = "2024"
 description = "A template for a new Rust project"
-documentation = "https://docs.rs/package-name"
+documentation = "https://docs.rs/urlogger"
 readme = "README.md"
-homepage = "https://github.com/un-rust/package-name"
-repository = "https://github.com/un-rust/package-name"
+homepage = "https://github.com/un-rust/urlogger"
+repository = "https://github.com/un-rust/urlogger"
 license = "Apache-2.0"
 keywords = [ ]
 categories = [ "development-tools" ]
 rust-version = "1.85.0"
 
 [dependencies]
-urlogger = "1.0.0"
