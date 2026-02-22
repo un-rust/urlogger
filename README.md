@@ -30,7 +30,7 @@ cargo add urlogger
 
 <!-- automdrs:file src="./src/main.rs" -->
 ```rust
-use package_name::hello;
+use urlogger::hello;
 
 fn main() {
     println!("{}", hello("un-rust"));
