@@ -1,10 +1,13 @@
-//! Minimal integration test so the template demonstrates the `tests/` layout.
+//! Integration test that runs the main.rs demo.
 //! Run with: `cargo test --test integration_test`
 
-use urlogger::hello;
+use urlogger::{LogLevel, log};
 
 #[test]
-fn hello_returns_greeting() {
-    assert_eq!(hello("world"), "Hello, world!");
-    assert_eq!(hello("template"), "Hello, template!");
+fn main_rs_demo() {
+    log(LogLevel::Trace, "Hello, world!");
+    log(LogLevel::Debug, "Hello, world!");
+    log(LogLevel::Info, "Hello, world!");
+    log(LogLevel::Warn, "Hello, world!");
+    log(LogLevel::Error, "Hello, world!");
 }
