@@ -30,10 +30,16 @@ cargo add urlogger
 
 <!-- automdrs:file src="./src/main.rs" -->
 ```rust
-use urlogger::hello;
+//! Demo: logs at all levels. Use `RUST_LOG=info` to filter.
+
+use urlogger::{LogLevel, log};
 
 fn main() {
-    println!("{}", hello("un-rust"));
+    log(LogLevel::Trace, "Hello, world!");
+    log(LogLevel::Debug, "Hello, world!");
+    log(LogLevel::Info, "Hello, world!");
+    log(LogLevel::Warn, "Hello, world!");
+    log(LogLevel::Error, "Hello, world!");
 }
 ```
 <!-- /automdrs -->
