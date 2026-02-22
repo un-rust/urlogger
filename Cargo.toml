@@ -1,6 +1,6 @@
 [package]
 name = "urlogger"
-version = "1.1.1"
+version = "1.1.2"
 authors = [ "YONGQI <betterhyq@qq.com>" ]
 edition = "2024"
 description = "Lightweight colored logger: `log(level, message)` with `RUST_LOG` filtering."
